@@ -1,8 +1,11 @@
 [build]
+  # Lệnh để biên dịch code
   command = "npm run build"
-  publish = "build"
+  # Thư mục chứa kết quả sau khi build để Netlify hiển thị
+  publish = "dist"
 
 [[redirects]]
+  # Cấu hình này giúp sửa lỗi 404 khi F5 trang web (SPA Routing)
   from = "/*"
   to = "/index.html"
   status = 200
