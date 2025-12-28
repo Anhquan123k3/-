@@ -1,0 +1,7 @@
+{
+  "name": "SurveyScanner AI",
+  "description": "An automated survey entry tool that captures survey images via camera, extracts data using Gemini 2.5 Flash, and exports results to CSV.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
